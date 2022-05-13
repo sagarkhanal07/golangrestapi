@@ -1,0 +1,12 @@
+
+POST http://localhost:8080/newsfeed
+Content-Type: application/json
+
+{
+    "title":"New Data 3",
+    "post":"New Post Value 4"
+}
+###
+GET http://localhost:8080/newsfeed
+###
+GET http://localhost:8080 HTTP/1.1
