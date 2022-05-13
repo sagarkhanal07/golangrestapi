@@ -13,5 +13,5 @@ func main() {
 	r.GET("/", handler.MessageGet())
 	r.GET("/newsfeed", handler.NewsfeedGet(feed))
 	r.POST("/newsfeed", handler.NewsfeedPost(feed))
-	r.Run()
+	r.Run(":8082")
 }
